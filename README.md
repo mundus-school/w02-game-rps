@@ -1,7 +1,10 @@
-Small self-study project for webdev class.
+# Small self-study project for webdev class
 
-Languages: <br>
+## Languages:
 HTML, CSS, JavaScript
 
-Description: <br>
+## Description:
 A simple rock-paper-scissors game utilizing basic Math.random-stuff to achive a mindnumbingly pointless competition against your own "computer".
+
+## How to run:
+Download files and run index.html in browser
