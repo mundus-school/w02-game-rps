@@ -1,0 +1,146 @@
+#rpsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  width: 99vw;
+  background-color: rgb(97, 28, 93);
+  border-radius: 25px;
+}
+
+#rpsArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  height: 500px;
+  width: 550px;
+  border-radius: 25px;
+  background-color: rgb(165, 26, 158);
+}
+
+#rpsPrep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(201, 82, 195);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4em;
+  height: 225px;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+#rpsResult {
+  display: none;
+  justify-content: space-between;
+  background-color: rgb(201, 82, 195);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4em;
+  height: 225px;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+#rpsYou,
+#rpsCom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 139, 238);
+  font-size: 20px;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+
+#rpsYourPick,
+#rpsComPick {
+  margin-top: -30px;
+  font-size: 2em;
+}
+
+#rpsDescription {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5em;
+  background-color: rgb(201, 82, 195);
+  margin-bottom: 20px;
+  height: 10%;
+  width: 450px;
+}
+
+#rpsScore {
+  display: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5em;
+  background-color: rgb(201, 82, 195);
+  margin-bottom: 20px;
+  height: 10%;
+  width: 450px;
+}
+
+#rpsStart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(201, 82, 195);
+  height: 25%;
+  width: 450px;
+}
+
+#rpsPicker {
+  display: none;
+  align-items: center;
+  background-color: rgb(201, 82, 195);
+  height: 25%;
+  width: 450px;
+}
+
+#startBtn {
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(226, 139, 238);
+  font-size: 1.7em;
+  height: 100px;
+  width: 85%;
+}
+
+#startBtn:hover {
+  background-color: rgb(240, 217, 239);
+}
+
+#startBtn:active {
+  background-color: rgb(255, 246, 255);
+}
+
+.buttons {
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(226, 139, 238);
+  font-size: 1.7em;
+  height: 100px;
+  width: 145px;
+}
+
+.buttons:nth-child(-n + 2) {
+  margin-right: 10px;
+}
+
+.buttons:hover {
+  background-color: rgb(240, 217, 239);
+}
+
+.buttons:active {
+  background-color: rgb(255, 246, 255);
+}
