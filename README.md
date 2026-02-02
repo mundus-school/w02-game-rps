@@ -8,3 +8,6 @@ A simple rock-paper-scissors game utilizing basic Math.random-stuff to achive a 
 
 ## How to run:
 Download files and run index.html in browser
+
+## Preview:
+https://mundus-school.github.io/w02-game-rps/
